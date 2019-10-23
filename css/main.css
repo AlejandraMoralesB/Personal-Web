@@ -3666,7 +3666,7 @@ footer .row {
 
 /* project  */
 
-.thumb-link{
+.thumb-link .img {
     height: 50vh;
     width: 50vh;
 }
