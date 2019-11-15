@@ -85,6 +85,10 @@ body {
     padding: 0;
 }
 
+.navbar-brand{
+    font-family: "lora-regular", serif;
+    font-size: 1.7rem;
+}
 
 /* ------------------------------------------------------------------- 
  * ## links
@@ -1242,7 +1246,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .subhead {
     font-family: "montserrat-bold", sans-serif;
-    font-size: 1.7rem;
+    font-size: 2.5em;
     line-height: 1.333;
     text-transform: uppercase;
     letter-spacing: .25rem;
@@ -1468,9 +1472,11 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     color: #f5faf9;
     text-transform: uppercase;
     letter-spacing: 0.2em;
+    font-weight : bold;
   }
   
  .navbar-brand:hover {
+
     color: #1abc9c;
   }
   
