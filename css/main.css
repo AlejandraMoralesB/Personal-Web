@@ -878,6 +878,7 @@ input[type="button"].btn--primary:focus {
     background: transparent !important;
     border: 0.2rem solid #01b47e;
     color: #01b47e;
+    text-align: -moz-center;
 }
 
 .btn--stroke:hover, button.btn--stroke:hover {
@@ -1434,7 +1435,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  *
  * ------------------------------------------------------------------- */
 .s-header {
-    width: 100%;
+    width: 100vh;
     height: 96px;
     background-color: transparent;
     position: absolute;
@@ -1791,11 +1792,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ## home content
  * ------------------------------------------------------------------- */
 .home-content {
-    display: table-cell;
-    width: 100%;
-    height: 100%;
     vertical-align: middle;
-    padding-bottom: 15.6rem;
+    padding-bottom: 14.6rem;
     position: relative;
     overflow: hidden;
 }
@@ -2208,10 +2206,9 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
  .s-about {
-    padding-top: 16.2rem;
+    padding-top: 7.2rem;
     padding-bottom: 9rem;
     background-color: #01b47e;
-    background-image: url(../images/plant.jpg);
     color: #010507;
     position: relative;
     background-color: #cccccc; /* Used if the image is unavailable */
@@ -2565,8 +2562,8 @@ html.no-csstransitions .home-content__main {
 }
 
 .s-works .intro-wrap {
-    padding: 15rem 0 25.2rem;
-    background: #111111;
+    padding: 8rem 0 25.2rem;
+    background: #faf8f8;
 }
 
 .works-content {
@@ -2676,7 +2673,7 @@ html.no-csstransitions .home-content__main {
 
 .item-folio__cat {
     color: rgba(255, 255, 255, 0.5);
-    font-family: "montserrat-light", sans-serif;
+    font-family: "montserrat-light", sanserifs-;
     font-size: 1.4rem;
     line-height: 1.714;
     margin-bottom: 0;
@@ -2798,8 +2795,8 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-clients {
-    padding-top: 16.2rem;
-    padding-bottom: 16.8rem;
+    padding-top: 7.2rem;
+    padding-bottom: 7.8rem;
     background-color: #e6e6e6;
     color: #757575;
     position: relative;
@@ -3004,7 +3001,7 @@ html.no-csstransitions .home-content__main {
     background-image: url("../images/contact-bg.jpg");
     background-repeat: no-repeat;
     background-position: center, center;
-    padding-top: 15rem;
+    padding-top: 8rem;
     padding-bottom: 12rem;
     color: rgba(255, 255, 255, 0.5);
     position: relative;
@@ -3018,6 +3015,7 @@ html.no-csstransitions .home-content__main {
     height: 100%;
     opacity: .8;
     background-color: #151515;
+    text-align: center;
 }
 
 .s-contact .form-field {
@@ -3071,8 +3069,8 @@ html.no-csstransitions .home-content__main {
     max-width: 1000px;
     background-color: rgba(0, 0, 0, 0.2);
     color: rgba(255, 255, 255, 0.4);
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
     font-family: "montserrat-light", sans-serif;
     font-size: 1.5rem;
     line-height: 2;
@@ -3152,7 +3150,7 @@ html.no-csstransitions .home-content__main {
 }
 .contact-primary, .contact-secondary {
     float: left;
-    padding: 0 5rem;
+    text-align: center;
 }
 
 .contact-primary {
@@ -3399,7 +3397,6 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 footer {
-    padding: 2rem 0 2rem;
     font-family: "montserrat-light", sans-serif;
     font-size: 15px;
     line-height: 2;
