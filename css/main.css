@@ -124,7 +124,7 @@ h1, h2, h3, h4, h5, h6,
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     margin-top: 6rem;
-    margin-bottom: 1.8rem;
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -187,6 +187,7 @@ h6, .h6 {
 
 p img {
     margin: 0;
+    padding: 13px;
 }
 
 p.lead {
@@ -202,6 +203,16 @@ p.lead {
     p.lead {
         font-size: 1.8rem;
     }
+}
+
+a.thumb-link{
+    height: 450px;
+ 
+}
+
+img{
+    height:100%;
+    width: 150%; 
 }
 
 em, i, strong, b {
@@ -238,6 +249,7 @@ blockquote:before {
     color: rgba(0, 0, 0, 0.25);
     font-family: arial, sans-serif;
     position: absolute;
+    top: 3.6rem;
     top: 3.6rem;
     left: 0;
 }
@@ -1247,7 +1259,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .subhead {
     font-family: "montserrat-bold", sans-serif;
-    font-size: 2.5em;
+    font-size: 1.5em;
     line-height: 1.333;
     text-transform: uppercase;
     letter-spacing: .25rem;
@@ -1265,42 +1277,47 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * responsive:
  * display headings
  * ------------------------------------------------------------------- */
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1400px) {
     .display-1 {
-        font-size: 7.2rem;
+        font-size: 4.5rem;
     }
     .display-2 {
-        font-size: 4.4rem;
+        font-size: 3.4rem;
     }
 }
 
 @media only screen and (max-width: 800px) {
     .display-1 {
-        font-size: 6.5rem;
+        font-size: 4.0rem;
     }
     .display-2 {
-        font-size: 4rem;
+        font-size: 3rem;
     }
 }
 
 @media only screen and (max-width: 600px) {
     .display-1 {
-        font-size: 5rem;
+        font-size: 3rem;
     }
     .display-2 {
         font-size: 3.3rem;
     }
     .subhead {
-        font-size: 1.5rem;
+        font-size: 1.0rem;
     }
 }
 
 @media only screen and (max-width: 400px) {
     .display-1 {
-        font-size: 4.2rem;
+        font-size: 3.0rem;
     }
     .display-2 {
-        font-size: 3rem;
+        font-size: 2rem;
+    }
+
+    .img {
+        width: 100px;
+        height: 80px;
     }
 }
 
@@ -1343,7 +1360,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * responsive:
  * section-header
  * ------------------------------------------------------------------- */
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1400px) {
     .section-header {
         max-width: 800px;
     }
@@ -1406,7 +1423,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     display: block;
     width: 10px;
     height: 10px;
-    border-radius: 50%;
+    border-radius: 40%;
     background: #959595;
     border: none;
     line-height: 10px;
@@ -1469,11 +1486,13 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .navbar-brand {
     display: inline-block;
     border: 3px solid #fff;
-    padding: 5px 20px;
+    padding: 5px 10px;
     color: #f5faf9;
     text-transform: uppercase;
     letter-spacing: 0.2em;
     font-weight : bold;
+    font-family: 'Ma Shan Zheng', cursive;
+    font-size: 150%;
   }
   
  .navbar-brand:hover {
@@ -1621,6 +1640,12 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }
+
+.myphoto{
+    height:300px;
+    width: 280px;
+}
+
 
 
 /* menu is open
@@ -2205,6 +2230,8 @@ html.no-csstransitions .home-content__main {
  * # about
  *
  * ------------------------------------------------------------------- */
+ 
+ 
  .s-about {
     padding-top: 7.2rem;
     padding-bottom: 9rem;
@@ -2215,6 +2242,7 @@ html.no-csstransitions .home-content__main {
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
+    
 }
 
 .s-about .section-header.has-bottom-sep::before {
@@ -2222,10 +2250,15 @@ html.no-csstransitions .home-content__main {
 }
 
 .about-desc {
-    font-size: 2.4rem;
-    line-height: 1.75;
-    text-align: center;
-    max-width: 1024px;
+    font-size: 2.3rem;
+    line-height: 1.55;
+    
+}
+
+.photo{
+    float: left;
+    
+    
 }
 
 
@@ -3154,7 +3187,8 @@ html.no-csstransitions .home-content__main {
 }
 
 .contact-primary {
-    width: 65%;
+    width: 101%;
+
 }
 
 .contact-primary #contactForm {
@@ -3331,7 +3365,7 @@ html.no-csstransitions .home-content__main {
  * responsive:
  * contact
  * ------------------------------------------------------------------- */
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1400px) {
     .contact-content {
         max-width: 900px;
     }
