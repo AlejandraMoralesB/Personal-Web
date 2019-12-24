@@ -1303,7 +1303,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
         font-size: 3.3rem;
     }
     .subhead {
-        font-size: 1.0rem;
+        font-size: 1.8rem;
     }
 }
 
@@ -2203,6 +2203,34 @@ html.no-csstransitions .home-content__main {
     .home-social {
         display: none;
     }
+    .s-about{
+        text-align: center;
+        max-width: none;
+        padding-top: 15rem;
+        padding-right: 25px;
+        width: 85%; ;
+    }
+
+
+    .myphoto{
+        width: 150%;
+        height: 180%;
+        margin-left: 30px;
+    }
+
+    .col-full-2{
+    font-size: 1.49rem;
+    text-align: justify;
+    margin: -100px 30px 0px 30px;
+    }
+
+     .photo{
+         margin: -10px;
+         float: none;
+     }
+    .p{
+        margin: -200px;
+    }
 }
 
 @media only screen and (max-width: 450px) {
@@ -2216,7 +2244,11 @@ html.no-csstransitions .home-content__main {
         min-height: 630px;
     }
     .home-content h1 {
-        font-size: 3.2rem;
+        font-size: 4.2rem;
+    }
+    
+    h3 {
+        font-size: 1.2rem;
     }
     .home-content__main {
         padding-top: 16.2rem;
@@ -2412,8 +2444,11 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 600px) {
     .s-about {
-        padding-top: 12rem;
+        padding-top: 2rem;
     }
+
+    
+
     .about-desc {
         font-size: 1.9rem;
     }
