@@ -1455,7 +1455,7 @@ font-family: 'Ma Shan Zheng';
  *
  * ------------------------------------------------------------------- */
 .s-header {
-    width: 100vh;
+    
     height: 96px;
     background-color: transparent;
     position: absolute;
@@ -2135,7 +2135,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 700px) {
     .home-content__main {
-        max-width: 490px;
+        max-width: 520px;
     }
     .home-content__buttons {
         padding-top: 1.2rem;
@@ -2157,7 +2157,10 @@ html.no-csstransitions .home-content__main {
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 640px) {
+    .home-content__main {
+        max-width: 390px;
+    }
     .home-content h1 {
         font-size: 3.8rem;
     }
@@ -2211,24 +2214,22 @@ html.no-csstransitions .home-content__main {
         max-width: none;
         padding-top: 15rem;
         padding-right: 25px;
-        width: 85%; ;
+        width: 100%; ;
     }
 
 
     .myphoto{
-        width: 150%;
-        height: 180%;
-        margin-left: 30px;
+        margin-left: 45px;
     }
 
     .col-full-2{
-    font-size: 1.49rem;
+    font-size: 1.39rem;
     text-align: justify;
-    margin: -100px 30px 0px 30px;
+    margin: -68px 20px 0px 10px;;
     }
 
      .photo{
-         margin: -10px;
+         margin: -37px;
          float: none;
      }
     .p{
