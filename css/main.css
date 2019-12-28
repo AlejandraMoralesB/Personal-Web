@@ -100,8 +100,10 @@ a {
 }
 
 a:hover, a:focus, a:active {
-    color: #01b47e;
-}
+    
+    color:
+        #000;
+    }
 
 a:hover, a:active {
     outline: 0;
@@ -803,25 +805,29 @@ button,
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
-    display: inline-block;
-    font-family: "montserrat-medium", sans-serif;
-    font-size: 1.2rem;
-    text-transform: uppercase;
-    letter-spacing: .3rem;
-    height: 5.4rem;
-    line-height: calc(5.4rem - .4rem);
-    padding: 0 3rem;
-    margin: 0 .3rem 1.2rem 0;
-    color: #000000;
-    text-decoration: none;
-    text-align: center;
-    white-space: nowrap;
-    cursor: pointer;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    background-color: #c5c5c5;
-    border: .2rem solid #c5c5c5;
+display: inline-block;
+font-family: "montserrat-medium", sans-serif;
+font-size: 1.3rem;
+text-transform: uppercase;
+letter-spacing: 0.3rem;
+height: 4.4rem;
+line-height: calc(4.4rem - 0.4rem);
+padding: 0 3rem;
+margin: 0 .3rem 1.2rem 0;
+color:
+#fff;
+text-decoration: none;
+text-align: center;
+white-space: nowrap;
+cursor: pointer;
+-webkit-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+background-color:
+#01b47e;
+border: 0.2rem solid
+    #dfdada;
 }
+
 
 .btn:hover,
 button:hover,
@@ -1306,7 +1312,7 @@ font-family: 'Ma Shan Zheng';
         font-size: 3.3rem;
     }
     .subhead {
-        font-size: 1.8rem;
+        font-size: 2.5rem;
     }
 }
 
@@ -2095,6 +2101,10 @@ html.no-csstransitions .home-content__main {
     .home-content__main {
         max-width: 1000px;
     }
+    .btn-click {
+        margin: -5.5rem 1.5rem 19px 17px;
+        visibility: hidden;
+    }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -2183,9 +2193,11 @@ html.no-csstransitions .home-content__main {
     .home-content__line {
         height: 7.2rem;
     }
+
+    
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 533px) {
     .s-home {
         min-height: 642px;
     }
@@ -2219,13 +2231,14 @@ html.no-csstransitions .home-content__main {
 
 
     .myphoto{
-        margin-left: 45px;
+        margin-left: 50px;
     }
 
     .col-full-2{
-    font-size: 1.39rem;
-    text-align: justify;
-    margin: -68px 20px 0px 10px;;
+        font-size: 1.39rem;
+        text-align: justify;
+        margin: 0px 30px 10px 10px;
+        display: -webkit-inline-box;
     }
 
      .photo{
@@ -2235,7 +2248,13 @@ html.no-csstransitions .home-content__main {
     .p{
         margin: -200px;
     }
+
+    .btn-click {
+        
+        visibility: visible;
+    }
 }
+
 
 @media only screen and (max-width: 450px) {
     .home-content h1 {
@@ -2252,12 +2271,16 @@ html.no-csstransitions .home-content__main {
     }
     
     h3 {
-        font-size: 1.2rem;
+        font-size: 1.8rem;
     }
     .home-content__main {
         padding-top: 16.2rem;
         width: auto;
     }
+
+
+
+
 }
 
 
@@ -2694,7 +2717,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .item-folio__thumb a::after {
-    content: "+";
+
     font-family: georgia, serif;
     font-size: 2.7rem;
     display: block;
@@ -3745,4 +3768,12 @@ footer .row {
 .thumb-link .img {
     height: 50vh;
     width: 50vh;
+}
+
+
+.btn-click {
+    padding-top: 0.2rem;
+    text-align: center;
+    margin: 3.5rem 0.5rem 23px -4px;
+    display: ruby-text;
 }
