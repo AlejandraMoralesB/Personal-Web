@@ -59,7 +59,7 @@
  * # base style overrides
  *
  * ------------------------------------------------------------------- */
-html {
+ html {
     font-size: 10px;
 }
 
@@ -1245,9 +1245,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .display-1--light {
     color: #FFFFFF;
-    letter-spacing: 0.1em;
-
-font-family: 'Ma Shan Zheng';
+    letter-spacing: 0.08em;
+    font-family: 'Zeyada', cursive;
 }
 
 .display-2 {
@@ -1493,7 +1492,7 @@ font-family: 'Ma Shan Zheng';
  * ------------------------------------------------------------------- */
  
 .navbar-brand {
-    border: 2px solid
+    border: 0.8px solid
 #fff;
 padding: 35px 7px 3px 7px;
   }
@@ -1649,8 +1648,8 @@ padding: 35px 7px 3px 7px;
 }
 
 .myphoto{
-    height:300px;
-    width: 280px;
+    height:280Px;
+    width: 250px;
 }
 
 
@@ -1775,6 +1774,17 @@ padding: 35px 7px 3px 7px;
     .header-menu-text {
         display: none;
     }
+
+    .navbar-brand {
+        border: 0.5px solid
+    #fff;
+    padding: 25px 5px 0px 5px;
+      }
+      
+      .logoAB{
+        width: 15%;
+        height: 15%;
+      }
 }
 
 
@@ -1825,7 +1835,7 @@ padding: 35px 7px 3px 7px;
  * ------------------------------------------------------------------- */
 .home-content {
     vertical-align: middle;
-    padding-bottom: 14.6rem;
+    padding-bottom: 16.6rem;
     position: relative;
     overflow: hidden;
 }
@@ -1847,8 +1857,8 @@ padding: 35px 7px 3px 7px;
     font-size: 6.3rem;
     line-height: 1.333;
     margin-top: 0;
-    color: #FFFFFF;
-    -webkit-text-stroke: 2px
+    color: #ffffff;
+    -webkit-text-stroke: 1.2px
 white;
 color:
 transparent;
@@ -2118,7 +2128,7 @@ html.no-csstransitions .home-content__main {
         font-size: 5.5rem;
     }
     .home-content__main {
-        max-width: 800px;
+        max-width: 1000px;
     }
 }
 
@@ -2132,7 +2142,7 @@ html.no-csstransitions .home-content__main {
     .home-content__main {
         padding-top: 21rem;
         padding-right: 80px;
-        max-width: 680px;
+        max-width: 880px;
     }
 }
 
@@ -2204,6 +2214,12 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width: 533px) {
+
+    .home-content {
+        
+        padding-bottom: 16.6rem;
+      
+    }
     .s-home {
         min-height: 642px;
     }
@@ -2237,7 +2253,9 @@ html.no-csstransitions .home-content__main {
 
 
     .myphoto{
-        margin-left: 50px;
+        margin-left: 100px;
+width: 180px;
+height: 200px;
     }
 
     .col-full-2{
@@ -2277,7 +2295,7 @@ html.no-csstransitions .home-content__main {
     }
     
     h3 {
-        font-size: 1.8rem;
+        font-size: 1.7rem;
     }
     .home-content__main {
         padding-top: 16.2rem;
@@ -2299,7 +2317,7 @@ html.no-csstransitions .home-content__main {
  
  .s-about {
     padding-top: 2.2rem;
-    padding-bottom: 9rem;
+    padding-bottom: 14.5rem;
     background-color: #01b47e;
     color: #010507;
     position: relative;
@@ -2517,8 +2535,12 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width: 400px) {
+    .s-about {
+        padding-top: 1.2rem;}
+    
     .about-desc {
         font-size: 1.8rem;
+        
     }
     .stats__count {
         font-size: 7.8rem;
