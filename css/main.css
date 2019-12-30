@@ -3802,8 +3802,8 @@ footer .row {
 .btn-click {
     padding-top: 0.2rem;
     text-align: center;
-    margin: 1.12rem 0.1rem 1.8rem 0.12rem;
-    display: flex;
+    margin:2.12rem 0.1rem 1.8rem 0.12rem;
+    display: ruby-text;
 }
 
 
