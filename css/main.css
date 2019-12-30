@@ -807,13 +807,13 @@ input[type="reset"],
 input[type="button"] {
 display: inline-block;
 font-family: "montserrat-medium", sans-serif;
-font-size: 1.3rem;
+font-size: 1.0rem;
 text-transform: uppercase;
 letter-spacing: 0.3rem;
 height: 4.4rem;
 line-height: calc(4.4rem - 0.4rem);
 padding: 0 3rem;
-margin: 0 .3rem 1.2rem 0;
+margin: 0.3rem 1.2rem 0;
 color:
 #fff;
 text-decoration: none;
@@ -1475,7 +1475,7 @@ font-family: 'Ma Shan Zheng';
  * ------------------------------------------------------------------- */
 .header-logo {
     display: inline-block;
-    position: absolute;
+    position: relative;
     margin: 0;
     padding: 0;
     left: 40px;
@@ -1493,17 +1493,15 @@ font-family: 'Ma Shan Zheng';
  * ------------------------------------------------------------------- */
  
 .navbar-brand {
-    display: inline-block;
-    border: 3px solid #fff;
-    padding: 5px 10px;
-    color: #f5faf9;
-    text-transform: uppercase;
-    letter-spacing: 0.2em;
-    font-weight : bold;
-    font-family: 'Ma Shan Zheng', cursive;
-    font-size: 150%;
+    border: 2px solid
+#fff;
+padding: 35px 7px 3px 7px;
   }
   
+  .logoAB{
+    width: 20%;
+    height: 20%;
+  }
  .navbar-brand:hover {
 
     color: #1abc9c;
@@ -1850,6 +1848,10 @@ font-family: 'Ma Shan Zheng';
     line-height: 1.333;
     margin-top: 0;
     color: #FFFFFF;
+    -webkit-text-stroke: 2px
+white;
+color:
+transparent;
 }
 
 .home-content__main {
@@ -1863,7 +1865,7 @@ font-family: 'Ma Shan Zheng';
 }
 
 .home-content__buttons .btn {
-    width: 215px;
+   
     border-color: #FFFFFF;
     color: #FFFFFF;
     margin: 1.5rem 1.5rem 0 0;
@@ -1932,6 +1934,10 @@ font-family: 'Ma Shan Zheng';
     bottom: 0;
 }
 
+.name{
+   
+    font-family: 'Bungee Shade', cursive;
+}
 
 /* ------------------------------------------------------------------- 
  * ## home social 
@@ -2292,7 +2298,7 @@ html.no-csstransitions .home-content__main {
  
  
  .s-about {
-    padding-top: 7.2rem;
+    padding-top: 2.2rem;
     padding-bottom: 9rem;
     background-color: #01b47e;
     color: #010507;
@@ -2890,8 +2896,8 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-clients {
-    padding-top: 7.2rem;
-    padding-bottom: 7.8rem;
+    padding-top: 9.2rem;
+    padding-bottom: .8rem;
     background-color: #e6e6e6;
     color: #757575;
     position: relative;
@@ -3776,4 +3782,21 @@ footer .row {
     text-align: center;
     margin: 3.5rem 0.5rem 23px -4px;
     display: ruby-text;
+}
+
+
+#CV{
+
+        text-align: center;
+        background:
+        transparent !important;
+        display:flex;
+        
+        
+}
+
+.col-full-2{
+  text-align: justify;
+  size: 12px;    
+
 }
